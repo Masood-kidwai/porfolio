@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    background-position: right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: cornsilk;
+    font-size: 55px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{ 
+    color: rgb(70, 3, 133);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: cornsilk;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color: rgb(71, 5, 133);
+    transition: 0.4s;
+}
+.btn{
+    background-color: rgb(55, 1, 106);
+    color: cornsilk;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    font-size: 20px;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%);
+}
+h1{
+    color:cornsilk;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: cornsilk;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgb(202, 127, 240);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.newslatter form{
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding:  20px ;
+    border: 2px solid rgb(71, 5, 133);
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 17px 30px;
+    border-radius: 30px;
+    background-color: rgb(74, 8, 136);
+    color: cornsilk;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 5px;
+    right: -35px;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%; 
+    top: 23%;
+    right: 10%;
+}
+.circle:nth-child(1){
+    width: 30rem;
+    background-image: url(background.jpg);
+    background-size: 100%; 
+    box-shadow:
+    0 0 2rem #8429df,
+    inset 0 0 2rem #9b43f4    
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(16, 16, 16);
+}
+.about img{
+    height: auto;
+    width: 430px;
+    box-shadow:
+    0 0 2rem #ddd3d3;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: cornsilk;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: cornsilk;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: cornsilk;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(70, 5, 130);
+    color: cornsilk;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 80px;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(67, 6, 123);
+    cursor: pointer;
+}
+
+.service{
+    background: #000;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: cornsilk;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(96, 6, 179);
+}
+h5{
+    color: cornsilk;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #858585;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgb(70, 5, 130);
+    color: cornsilk;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(67, 6, 123);
+    cursor: pointer;   
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: cornsilk;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: rgb(70, 5, 130);
+    color: cornsilk;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;   
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid rgb(67, 6, 123);
+    cursor: pointer;      
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: cornsilk;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: cornsilk;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(74, 2, 141);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+.end{
+    position: absolute;
+    color: rgb(120, 39, 195);
+    bottom: 35px;
+    font-size: 14px;
+}
